@@ -1,5 +1,5 @@
-import hello    # The code to test
-import unittest   # The test framework
+from qap.core import hello
+import unittest
 
 class Test_TestIncrement(unittest.TestCase):
     def test_increment(self):
